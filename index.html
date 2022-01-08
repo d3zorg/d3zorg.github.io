@@ -28,7 +28,18 @@
     <div class="hui" id="hui4"><img src="https://i.imgur.com/tLbXBbZs.jpg"></div>
     <div class="centerText">
 		<span id="main">
-			всё?
+			<div class="text js-hooy"></div>
+      <script>
+  				var quotes = [
+  					'всё?',
+  					'merida не катит',
+  					'29" мир победил',
+  					'урбанизм или смерть',
+  				];
+  				var index = Math.floor((Math.random() * quotes.length));
+  				document.getElementById('main').innerHTML = quotes[index];
+
+  			</script>
 		</span>
     </div>
 </body>
